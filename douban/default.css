@@ -1,0 +1,105 @@
+body,div,ul{margin: 0; padding: 0;}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+div.clear{clear: both;}/*清除浮动*/
+#navbar{
+	background: #000033;
+}
+#nav-content{
+	width: 1024px;
+	height: 45px;
+	margin: 0 auto;
+	/*border: 1px solid gold;*/ /*识别导航栏位置及宽度*/
+	/*background: gold;*/
+}
+#logo{
+	padding: 0 25px;
+	/*text-align: center;*/
+	line-height: 45px;
+	float: left;
+}
+#logo>a{
+	display: block;
+	font-size: 26px;
+	color: #00CC00;
+	/*font-weight: 800;*/
+}
+#logo>a:hover{
+	color: #fed500;
+}
+ul.nav-list{
+	float: left;
+}
+li.nav-item{
+	float: left;
+	
+}
+li.nav-item>a{
+	color: white;
+	display: block;
+	padding: 0 10px;
+	font-size: 18px;
+	line-height: 45px;
+}
+li.nav-item>a:hover{
+	color: #FFFF00;
+	/*background: red;*/
+}
+/*drop-list start下拉菜单*/
+ul.drop-list{
+	display: none;
+	background: #000033;
+}
+li.drop-item a{
+	
+	/*text-align: center;*/
+	/*line-height: 45px;*/
+	/*color: */
+	color: white;
+	display: block;
+	padding: 0 15px;
+	font-size: 18px;
+	line-height: 45px;
+}
+li.drop-item a:hover{
+	background: #666;
+	color: #fed500;
+}
+li.drop-menu:hover ul.drop-list{
+	display: block;
+}
+/*drop-list end下拉菜单*/
+ul.nav-user{
+	float: right;
+}
+li.nav-user{
+	float: left;
+
+}
+li.nav-user>a{
+	font-size: 20px;
+	color: #fed500;
+}
+li.nav-user>a:hover{
+	color: #00CC00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
