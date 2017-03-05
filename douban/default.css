@@ -82,12 +82,13 @@ li.nav-user{
 }
 li.nav-user>a{
 	font-size: 20px;
-	color: #fed500;
+	color: #00CC00;
+	
 }
 li.nav-user>a:hover{
-	color: #00CC00;
+	color: #f69;
 }
-
+/*nav-user end*/
 
 
 
