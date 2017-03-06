@@ -10,7 +10,7 @@ div.clear{clear: both;}/*清除浮动*/
 	background: #000033;
 }
 #nav-content{
-	width: 1024px;
+	width: 1200px;
 	height: 45px;
 	margin: 0 auto;
 	/*border: 1px solid gold;*/ /*识别导航栏位置及宽度*/
@@ -74,8 +74,27 @@ li.drop-menu:hover ul.drop-list{
 	display: block;
 }
 /*drop-list end下拉菜单*/
+div.nav-search{
+	line-height: 45px;
+	float: right;
+	/*margin: */
+}
+input{
+	text-align: left;
+	padding: 5px 10px;
+	border: 2px solid #000033;
+	/*background: none;*/
+	/*line-height: 45px;*/
+}
+.inp-btn{
+	background: white;
+	color: grey;
+
+}
+/*nav-search end*/
 ul.nav-user{
 	float: right;
+	margin-left: 35px;
 }
 li.nav-user{
 	float: left;
