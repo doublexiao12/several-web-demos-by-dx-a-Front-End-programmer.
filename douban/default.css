@@ -174,15 +174,40 @@ div.new-status a{
 div.actions span>a{
 	color: grey;
 }
+div.paginator {
+    width: 600px;
+    /*zoom: 1;*/
+    font: 14px /*Arial*/, Helvetica, sans-serif;
+    color: #aaa;
+    margin: 20px auto;
+    line-height: 150%;
+    text-align: center;
+}
+.paginator a, .thispage, .break {
+    padding: 3px 8px;
+    margin: 2px;
+    color: #37a;
+}
+.paginator .thispage {
+    color: #fff;
+    background: #83BF73;
+}
+.paginator a:hover {
+    color: #000;
+    background: #83bf73;
+
+    /*text-decoration: none;*/
+}
 /*div.stream end*/
 div.r-side{
 	width: 250px;
 	/*height: 700px;*/
 	padding-top: 55px;
 	float: right;
-	border-left: 1px solid #ccc;
+	/*border-left: 1px solid #ccc;*/
 	z-index: 2;
 	font-size: 13px;
+	position: relative;
 }
 div.notify-mod, div.r-side .mod{
 	background: #f2f7f6;
