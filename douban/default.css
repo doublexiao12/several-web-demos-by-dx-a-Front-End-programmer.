@@ -267,9 +267,14 @@ h3{
 span.f-right{
 	float: right;
 }
-span.f-right>a{
+span.f-right a{
 	color: #37a;
-	padding-left: 8px;
+	padding:8px 5px;
+	text-align: center;
+}
+span.f-right a:hover{
+    color: white;
+    background: grey;
 }
 
 /*#footer end*/
