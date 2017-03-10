@@ -1,6 +1,7 @@
 body,div,ul,h1,h3{margin: 0; padding: 0;}
 a{
 	text-decoration: none;
+	color: #000;
 }
 li{
 	list-style: none;
@@ -133,8 +134,24 @@ div.poster {
 	color: #fed500;
 }
 /*poster end*/
+div#main{
+	width: 950px;
+	/*height: 1800px;*/
+	margin: 0 auto;
+	/*border: 1px solid grey;*/
+	/*background: red;*/
+	padding-top: 35px;
+}
 
 
+div.new-status{
+	/*border-bottom: 1px solid grey;*/
+	padding: 15px 0;
+
+}
+div.new-status a{
+	color: #7094b7;
+}
 
 
 
