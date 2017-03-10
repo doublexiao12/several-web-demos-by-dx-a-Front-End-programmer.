@@ -140,20 +140,88 @@ div#main{
 	margin: 0 auto;
 	/*border: 1px solid grey;*/
 	/*background: red;*/
-	padding-top: 35px;
+	/*padding-top: 35px;*/
 }
-
-
-div.new-status{
+/*div.stream start*/
+div.stream{
+	width: 600px;
+	float: left;
+}
+div.status-wrapper{
+	padding: 55px 0;
+	border-bottom: 1px solid #ccc;
+}
+div.text,.bd{
 	/*border-bottom: 1px solid grey;*/
-	padding: 15px 0;
+	/*padding: 15px 0;*/
+	padding-left: 8%;
+	/*display: block;*/
+	/*float: left;*/
 
+}
+div.usr-pic{
+	width: 48px;
+	height: 48px;
+	float: left;
+    position: relative;
+    z-index: 1;
+    margin-right: 20px;
 }
 div.new-status a{
 	color: #7094b7;
 }
 
-
+div.actions span>a{
+	color: grey;
+}
+/*div.stream end*/
+div.r-side{
+	width: 250px;
+	/*height: 700px;*/
+	padding-top: 55px;
+	float: right;
+	border-left: 1px solid #ccc;
+	z-index: 2;
+	font-size: 13px;
+}
+div.notify-mod, div.r-side .mod{
+	background: #f2f7f6;
+	margin: 0 0 20px;
+    padding: 16px 0 16px 18px;
+    line-height: 1.5;
+    border-radius: 4px;
+}
+div.r-side .mod{
+	background: none;
+    word-break: break-all;
+}
+div.notify-mod a, div.r-side .mod a{
+	color: #37a;
+}
+li.rec_topics{
+	/*display: list-item;*/
+	display: inline-block;
+    margin-bottom: 6px;
+    font-size: 13px;
+    line-height: 1;
+    /*color: #3377aa;*/
+}
+.rec_topics_subtitle {
+    display: block;
+    margin: 5px 0 15px;
+    font-size: 12px;
+    line-height: 1;
+    color: #aaaaaa;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+h3{
+	font: 16px Arial, Helvetica, sans-serif;
+    color: #072;
+    margin: 0 0 12px 0;
+    line-height: 150%;
+}
 
 
 
