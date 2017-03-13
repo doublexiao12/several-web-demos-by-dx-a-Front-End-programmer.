@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>a slide demo by dx.</title>
+	<link rel="stylesheet" href="default.css">
+	<!-- unslide ref src -->
+	<script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.js"></script>
+	<link href="http://cdn.bootcss.com/unslider/2.0.3/css/unslider-dots.css" rel="stylesheet">
+	<link href="http://cdn.bootcss.com/unslider/2.0.3/css/unslider.css" rel="stylesheet">
+	<script src="http://cdn.bootcss.com/unslider/2.0.3/js/unslider-min.js"></script>
+	<!-- unslide ref src -->
+
+</head>
+<body>
+	<div class="dx-slide">
+		<ul>
+			<li class="slide" style="background:#963;">
+				<div class="inner">
+					<h1>this is a slide.</h1>
+					<p>we can image it is the first slide.whatever it matters in fact.</p>
+				</div>
+			</li>
+			<li class="slide" style=" background: #99c; ">
+				<div class="inner">
+					<h1>we can image it is the first slide.whatever it matters in fact.</h1>
+					<h2>this is a slide.</h2>
+				</div>
+			</li>
+			<li class="slide" style=" background:#333;">
+				<div class="inner">
+					<h1>this is a slide.</h1>
+					<p>this is a slide.</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+	<!-- unslider js -->
+	<script> 
+		$(".dx-slide").unslider({
+			speed: 500,               //  The speed to animate each slide (in milliseconds)
+			delay: 300,              //  The delay between slide animations (in milliseconds)
+			complete: function() {},  //  A function that gets called after every slide animation
+			// keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+			dots: true,               //  Display dot navigation
+			// fluid: false              //  Support responsive design. May break non-responsive designs
+		});		
+	</script> <!-- unslider js -->
+</body>
+</html>
