@@ -10,7 +10,6 @@
 	<link href="http://cdn.bootcss.com/unslider/2.0.3/css/unslider.css" rel="stylesheet">
 	<script src="http://cdn.bootcss.com/unslider/2.0.3/js/unslider-min.js"></script>
 	<!-- unslide ref src -->
-
 </head>
 <body>
 	<div class="dx-slide">
@@ -24,7 +23,7 @@
 			<li class="slide" style=" background: #99c; ">
 				<div class="inner">
 					<h1>we can image it is the first slide.whatever it matters in fact.</h1>
-					<h2>this is a slide.</h2>
+					<p>this is a slide.</p>
 				</div>
 			</li>
 			<li class="slide" style=" background:#333;">
@@ -39,10 +38,10 @@
 	<!-- unslider js -->
 	<script> 
 		$(".dx-slide").unslider({
-			speed: 500,               //  The speed to animate each slide (in milliseconds)
-			delay: 300,              //  The delay between slide animations (in milliseconds)
+			speed: 500,  //  The speed to animate each slide (in milliseconds)
+			delay: 300,  //  The delay between slide animations (in milliseconds)
 			complete: function() {},  //  A function that gets called after every slide animation
-			// keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+			keys: true,               //  Enable keyboard (left, right) arrow shortcuts
 			dots: true,               //  Display dot navigation
 			// fluid: false              //  Support responsive design. May break non-responsive designs
 		});		
