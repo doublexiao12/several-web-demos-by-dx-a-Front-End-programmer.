@@ -1,4 +1,4 @@
-img{
+div.carousel-inner>div.item>img{
 	width: 100%; /*图片铺满显示*/
 	/*width: 650px; */
 }
