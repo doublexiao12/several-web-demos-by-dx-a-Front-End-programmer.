@@ -13,13 +13,13 @@ a{ text-decoration: none; text-align: center; }
 	line-height: 70px; color: white; font-size: 26px;
 	padding: 0px 25px 0px 60px;
 	 }	
-.logo a:hover{ color: #000; } 
+.logo a:hover{ color: #ff0; } 
 /*ul.navItems{ float: right; }	*/
 
 /*user center*/
 ul.navItemsUser{ float: right; padding-right: 60px; }
 ul.navItemsUser li.navItem a:hover {
-	color: #CC00FF; /*background: #333333*/;
+	color: #CC00FF; background: #333333;
 	 }
 /*user center*/	 
 li.navItem{ float: left; list-style: none; }
@@ -28,8 +28,8 @@ li.navItem a{
 	line-height: 70px; color: white; font-size: 18px;
 	padding: 0 15px; display: block;
 	  }
-li.navItem a:hover { color: #CC00FF; height: 64px;
-	line-height: 64px; padding-top: 3px;
+li.navItem a:hover { color: #CC00FF; height: 70px;
+	line-height: 70px; /*padding-top: 3px;*/
 	background: #000; border-bottom: 3px solid #66CC00;
 	 }
 
@@ -77,21 +77,31 @@ h1 a{
 	color: white;
 }
 h1 a:hover{
-	color: gold;
+	color: #ff0;
 }
 
-/*slide css*/
+/*slide css start*/
+div#myCarousel{
+	width: 100%; /*决定轮播图/幻灯片大小*/
+	margin: 135px auto 0; /*使幻灯片左右居中显示*/	
+}
 div.carousel-inner>div.item>img{
 	width: 100%; /*图片铺满显示*/
 	/*width: 650px; */
+	/*height: 770px;*/
 }
-div#myCarousel{
-	width: 850px; /*决定轮播图/幻灯片大小*/
-	margin: 35px auto 0; /*使幻灯片左右居中显示*/	
+/*div.container{
+	background: grey; 只是测试div#myCarousel的大小，可以删掉
+}*/
+div.carousel-caption{
+	margin-bottom: 260px;
 }
-div.container{
-	/*background: grey;*/ /*只是测试div#myCarousel的大小，可以删掉*/
+div.carousel-caption>a{
+	color: white;
 }
-/*slide css*/
+div.carousel-caption>a:hover{
+	color: #ff0;
+}
+/*slide css end*/
 
 
