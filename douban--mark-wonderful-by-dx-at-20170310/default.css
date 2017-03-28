@@ -1,9 +1,10 @@
-body,div,ul,h1,h3,h2{
-	margin: 0; padding: 0;
-	font:Helvetica;
+body,div,ul,h1,h3,h2,a,li {
+	margin: 0; 
+	padding: 0;
+	font-family:/*Helvetica*/ sans-serif;
 }
 a{
-	font: Helvetica;
+	/*font: Helvetica;*/
 	text-decoration: none;
 	color: #000;
 }
@@ -11,6 +12,7 @@ li{
 	list-style: none;
 }
 div.clear{clear: both;}/*清除浮动*/
+
 #navbar{
 	background: #000033;
 }
@@ -27,7 +29,7 @@ div.clear{clear: both;}/*清除浮动*/
 	line-height: 45px;
 	float: left;
 }
-#logo>a{
+#logo>a {
 	display: block;
 	font-size: 26px;
 	color: #00CC00;
@@ -250,7 +252,7 @@ li.rec_topics{
     text-overflow: ellipsis;
 }
 h3{
-	font: 16px Arial, Helvetica, sans-serif;
+	font-family: 16px Arial, Helvetica, sans-serif;
     color: #072;
     margin: 0 0 12px 0;
     line-height: 150%;
