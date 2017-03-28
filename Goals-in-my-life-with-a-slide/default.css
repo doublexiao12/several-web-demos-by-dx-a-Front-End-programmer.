@@ -1,37 +1,56 @@
 /*初始化浏览器的标签默认值*/
 html,body,div, ul, li { 
-	margin: 0; padding: 0; list-style: none;
-	font-family: /*Helvetica*/ /*Arial*/ sans-serif;
-	 }
-a{ text-decoration: none; text-align: center; }	 
+margin: 0; 
+padding: 0; 
+list-style: none;
+font-family: /*Helvetica*/ /*Arial*/ sans-serif;
+}
 
-#nav { width: 100%; height: 70px; 
-	background: #333; /*z-index: 1;*/ }
-.logo{ float: left; }
+a { text-decoration: none; text-align: center; }	 
+
+#nav { 
+	width: 100%; 
+	height: 70px; 
+	background: #333; 
+	/*z-index: 1;*/ 
+}
+.logo { float: left; }
 .logo a { 
-	text-decoration: none; vertical-align: middle; 
-	line-height: 70px; color: white; font-size: 26px;
-	padding: 0px 25px 0px 60px;
-	 }	
-.logo a:hover{ color: #ff0; } 
+		text-decoration: none;
+		vertical-align: middle; 
+		line-height: 70px;
+		color: white; 
+		font-size: 26px;
+		padding: 0px 25px 0px 60px;
+}	
+.logo a:hover { color: #ff0; } 
 /*ul.navItems{ float: right; }	*/
 
 /*user center*/
 ul.navItemsUser{ float: right; padding-right: 60px; }
-ul.navItemsUser li.navItem a:hover {
-	color: #CC00FF; background: #333333;
-	 }
+ul.navItemsUser li.navItem a:hover{
+	color: #CC00FF; 
+	background: #333333;
+}
 /*user center*/	 
 li.navItem{ float: left; list-style: none; }
 li.navItem a{
-	text-decoration: none;  vertical-align: middle; 
-	line-height: 70px; color: white; font-size: 18px;
-	padding: 0 15px; display: block;
-	  }
-li.navItem a:hover { color: #CC00FF; height: 70px;
-	line-height: 70px; /*padding-top: 3px;*/
-	background: #000; border-bottom: 3px solid #66CC00;
-	 }
+	text-decoration: none;  
+	vertical-align: middle; 
+	line-height: 70px; 
+	color: white; 
+	font-size: 18px;
+	padding: 0 15px; 
+	display: block;
+}
+li.navItem a:hover { 
+	color: #CC00FF; 
+	height: 70px;
+	line-height: 70px; 
+	/*padding-top: 3px;*/
+	background: #000; 
+	border-bottom: 3px solid #66CC00;
+}
 
 li.dropContent{ 
 	color: red; background: #333; /*width: 100%;*/
@@ -39,13 +58,14 @@ li.dropContent{
 	 }
 /*dropdownMenu start*/
 ul.dropdown{ 
-	display: none; position: relative; 
-	 }
+	display: none; 
+	position: relative; 
+}
 /*li.dropContent{ display: none; }*/
 li.dropdownMenu:hover .dropdown { 
 	display: block; 
 	z-index: 1;
-	 }
+}
 
 /*dropdownMenu end*/
 /*poster wall*/
@@ -58,7 +78,6 @@ li.dropdownMenu:hover .dropdown {
 
 }
 .posterContent{
-
 	width: 100%;
 	height: 100%;
 	margin: 205px  auto 0;
@@ -66,7 +85,6 @@ li.dropdownMenu:hover .dropdown {
 	color: white;
 	position: absolute;
 	text-align: center;
-
 }
 h1{
 	font-size: 46px;
@@ -83,7 +101,8 @@ h1 a:hover{
 /*slide css start*/
 div#myCarousel{
 	width: 100%; /*决定轮播图/幻灯片大小*/
-	margin: 135px auto 0; /*使幻灯片左右居中显示*/	
+	/*margin: 135px auto 0;*/ /*使幻灯片左右居中显示*/	
+	border-top: 75px solid #333;
 }
 div.carousel-inner>div.item>img{
 	width: 100%; /*图片铺满显示*/
